@@ -64,7 +64,7 @@ const SearchManufacturer = ({
                   value={query}
                   className='search-manufacturer__option z-100'
                 >
-                  Create "{query}"
+                  Create {query}
                 </Combobox.Option>
               ) : (
                 // Display the filtered manufacturers as options
